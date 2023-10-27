@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+font-family: "Anonymous Pro";
+src: url(fonts/AnonymousPro-Regular.ttf);
+}
+@font-face {
+  font-family: "IB MP Plex Mono";
+  src: url(fonts/IBMPlexMono-Regular.ttf);
+}
+@font-face {
+  font-family: "IB MP Plex Mono";
+  src: url(fonts/IBMPlexMono-Bold.ttf);
+  font-weight: 700;
+}
+/* HEADER */
+header {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #A1A6B4 1px solid;
+}
+.header_logo{
+  margin-left: 142px;
+}
+.header_nav{
+  margin-right: 157px;
+}
+.header_nav ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.header_nav a{
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* HEADER */
+
+/* MAIN */
+main {
+  background-color: #F1F1F1;
+}
+h2{
+  font-family: "IB MP Plex Mono";
+  font-size: 48px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+/* MAIN */
+.content{
+  padding-top: 24px;
+  padding-bottom: 25px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.card{
+  width: 371px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.card_info{
+  padding: 24px 32px;
+}
+.card_title{
+  font-family: "Anonymous Pro";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card_text{
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* MAIN */
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 142px;
+  background-color: #121723;
+}
+.dis_flex {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: rgba(230, 232, 236, 0.40) 1px solid;
+}
+.footer_nav ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.footer_nav a{
+  color: #FFF;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.line{
+  margin: 0 auto;
+  height: 1px;
+  width: inherit;
+  background: rgba(230, 232, 236, 0.4) ;
+}
+.copyright{
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #A1A6B4;
+  text-align: center;
+  margin-top: 18px;
+}
+/* FOOTER */
